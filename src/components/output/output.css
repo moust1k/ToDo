@@ -1,0 +1,35 @@
+.item-text {
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.done {
+    text-decoration: line-through;
+
+}
+
+
+.item-delete {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #400f3e;
+    background: transparent;
+    border: none;
+}
+
+.item-todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+.todo-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
